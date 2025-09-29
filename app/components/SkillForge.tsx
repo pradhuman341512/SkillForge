@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { ChevronRight, Users, Award, BookOpen, Target, Star, ArrowRight, CheckCircle, Play, Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 const SkillForge = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -93,7 +94,7 @@ const SkillForge = () => {
       setCurrentSlide((prev) => (prev + 1) % testimonials.length);
     }, 5000);
     return () => clearInterval(timer);
-  }, []);
+  }, [testimonials.length]);
 
   return (
     <div className="min-h-screen bg-white">
@@ -285,7 +286,7 @@ const SkillForge = () => {
             </div>
 
             <div className="relative">
-              <img 
+              <Image
                 src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=500&fit=crop" 
                 alt="Team working on project" 
                 className="rounded-2xl shadow-2xl"
@@ -331,7 +332,7 @@ const SkillForge = () => {
                 </div>
                 
                 <blockquote className="text-2xl font-medium text-gray-900 leading-relaxed">
-                  "{testimonials[currentSlide].content}"
+                  `{testimonials[currentSlide].content}`
                 </blockquote>
                 
                 <div className="flex items-center justify-center space-x-4">

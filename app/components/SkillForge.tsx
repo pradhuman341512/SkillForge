@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronRight, Users, Award, BookOpen, Target, Star, ArrowRight, CheckCircle, Play, Menu, X } from 'lucide-react';
 import Image from 'next/image';
+import { Button } from '@/components/ui/button';
 
 const SkillForge = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,31 +35,31 @@ const SkillForge = () => {
   const programs = [
     {
       title: "Full-Stack Development",
-      duration: "12 Weeks",
-      level: "Intermediate",
-      students: "2.5k+",
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop"
+      duration: "6 Month(s)",
+      level: "Top Choice",
+      students: "800+",
+      image: "   /fullstack.jpeg"
     },
     {
       title: "Data Science Bootcamp",
-      duration: "16 Weeks",
-      level: "Beginner",
-      students: "1.8k+",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop"
+      duration: "4 Month(s)",
+      level: "",
+      students: "680+",
+      image: "./fullstack.jpeg"
     },
     {
       title: "Digital Marketing",
-      duration: "8 Weeks",
-      level: "All Levels",
-      students: "3.2k+",
-      image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400&h=250&fit=crop"
+      duration: "3 Month(s)",
+      level: "",
+      students: "550+",
+      image: "./fullstack.jpeg"
     },
     {
       title: "UI/UX Design",
-      duration: "10 Weeks",
-      level: "Beginner",
-      students: "1.5k+",
-      image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=250&fit=crop"
+      duration: "3 Month(s)",
+      level: "",
+      students: "255+",
+      image: "./fullstack.jpeg"
     }
   ];
 
@@ -118,7 +119,7 @@ const SkillForge = () => {
               <a href="#process" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Process</a>
               <a href="#testimonials" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Reviews</a>
               <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transform hover:scale-105 transition-all duration-200">
-                Get Started
+                Get Suport
               </button>
             </div>
 
@@ -140,7 +141,7 @@ const SkillForge = () => {
                 <a href="#process" className="block px-3 py-2 text-gray-700 hover:text-indigo-600">Process</a>
                 <a href="#testimonials" className="block px-3 py-2 text-gray-700 hover:text-indigo-600">Reviews</a>
                 <button className="w-full mt-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-2 rounded-full">
-                  Get Started
+                  Get Support
                 </button>
               </div>
             </div>
@@ -159,31 +160,31 @@ const SkillForge = () => {
                   <span>Rated #1 Career Development Platform</span>
                 </div>
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  Transform Your 
-                  <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"> Career</span> 
+                  Start Your 
+                  <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"> Internship</span> Journey
                   <br />With Expert Training
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Join thousands of professionals who have accelerated their careers through our intensive, 
-                  hands-on training programs led by industry experts.
+                  Join thousands of students who have accelerated their careers through our intensive, 
+                  hands-on internship programs led by industry experts.
                 </p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center space-x-2">
-                  <span>Start Your Journey</span>
+                <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-4 rounded-full font-semibold text-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center space-x-2">
+                  <span>Start Your Internship</span>
                   <ArrowRight className="w-5 h-5" />
                 </button>
                 <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full font-semibold text-lg hover:border-indigo-600 hover:text-indigo-600 transition-all duration-200 flex items-center justify-center space-x-2">
                   <Play className="w-5 h-5" />
-                  <span>Watch Demo</span>
+                  <span>Browse Intership Domains </span>
                 </button>
               </div>
 
               <div className="flex items-center space-x-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-gray-900">15k+</div>
-                  <div className="text-gray-600">Students Trained</div>
+                  <div className="text-3xl font-bold text-gray-900">2.5k+</div>
+                  <div className="text-gray-600">Students Interned</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-gray-900">95%</div>
@@ -199,7 +200,7 @@ const SkillForge = () => {
             <div className="relative">
               <div className="relative z-10">
                 <img 
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=500&fit=crop" 
+                  src="./hero.jpeg" 
                   alt="Professional team collaboration" 
                   className="rounded-2xl shadow-2xl"
                 />
@@ -215,9 +216,9 @@ const SkillForge = () => {
       <section id="programs" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-4xl font-bold text-gray-900">Popular Training Programs</h2>
+            <h2 className="text-4xl font-bold text-gray-900">Our Intership Programs</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose from our comprehensive range of industry-focused programs designed to fast-track your career growth
+              Choose from our comprehensive range of industry-focused Intership programs designed to fast-track your career growth
             </p>
           </div>
 
@@ -240,7 +241,7 @@ const SkillForge = () => {
                   <h3 className="text-xl font-bold text-gray-900">{program.title}</h3>
                   <div className="flex items-center justify-between text-sm text-gray-600">
                     <span>⏱️ {program.duration}</span>
-                    <span>👥 {program.students} enrolled</span>
+                    <span>👥 {program.students} Interned</span>
                   </div>
                   <button className="w-full bg-gray-50 hover:bg-indigo-50 text-gray-700 hover:text-indigo-600 py-3 rounded-xl font-semibold transition-all duration-200 flex items-center justify-center space-x-2">
                     <span>Learn More</span>
@@ -287,10 +288,12 @@ const SkillForge = () => {
 
             <div className="relative">
               <Image
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=500&fit=crop" 
-                alt="Team working on project" 
-                className="rounded-2xl shadow-2xl"
-              />
+      src="/hero.jpeg"   // ✅ path from public folder (no ./)
+      alt="Team working on project"
+      width={400}
+      height={300}
+      className="rounded-2xl shadow-2xl"
+    />
               <div className="absolute inset-0 bg-gradient-to-t from-indigo-600/20 to-transparent rounded-2xl"></div>
               
               {/* Floating Cards */}
@@ -352,7 +355,8 @@ const SkillForge = () => {
             {/* Slide Indicators */}
             <div className="flex justify-center space-x-2 mt-8">
               {testimonials.map((_, index) => (
-                <button
+                <Button
+                type='button'
                   key={index}
                   onClick={() => setCurrentSlide(index)}
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${

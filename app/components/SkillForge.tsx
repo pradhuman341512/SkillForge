@@ -38,28 +38,28 @@ const SkillForge = () => {
       duration: "6 Month(s)",
       level: "Top Choice",
       students: "800+",
-      image: "   /fullstack.jpeg"
+      image: "   /fullstack.jpg"
     },
     {
       title: "Data Science Bootcamp",
       duration: "4 Month(s)",
       level: "",
       students: "680+",
-      image: "./fullstack.jpeg"
+      image: "/datascience.jpg"
     },
     {
       title: "Digital Marketing",
       duration: "3 Month(s)",
       level: "",
       students: "550+",
-      image: "./fullstack.jpeg"
+      image: "/digital.png"
     },
     {
       title: "UI/UX Design",
       duration: "3 Month(s)",
       level: "",
       students: "255+",
-      image: "./fullstack.jpeg"
+      image: "/uiux.jpg"
     }
   ];
 
@@ -118,7 +118,7 @@ const SkillForge = () => {
               <a href="#programs" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Programs</a>
               <a href="#process" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Process</a>
               <a href="#testimonials" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Reviews</a>
-              <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transform hover:scale-105 transition-all duration-200">
+              <button className='gbutton'>
                 Get Suport
               </button>
             </div>
@@ -140,7 +140,7 @@ const SkillForge = () => {
                 <a href="#programs" className="block px-3 py-2 text-gray-700 hover:text-indigo-600">Programs</a>
                 <a href="#process" className="block px-3 py-2 text-gray-700 hover:text-indigo-600">Process</a>
                 <a href="#testimonials" className="block px-3 py-2 text-gray-700 hover:text-indigo-600">Reviews</a>
-                <button className="w-full mt-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-2 rounded-full">
+                <button className='gbutton'>
                   Get Support
                 </button>
               </div>
@@ -177,7 +177,7 @@ const SkillForge = () => {
                 </button>
                 <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full font-semibold text-lg hover:border-indigo-600 hover:text-indigo-600 transition-all duration-200 flex items-center justify-center space-x-2">
                   <Play className="w-5 h-5" />
-                  <span>Browse Intership Domains </span>
+                  <span>Browse Internship Domains </span>
                 </button>
               </div>
 
@@ -200,7 +200,7 @@ const SkillForge = () => {
             <div className="relative">
               <div className="relative z-10">
                 <img 
-                  src="./hero.jpeg" 
+                  src="/hero.jpg" 
                   alt="Professional team collaboration" 
                   className="rounded-2xl shadow-2xl"
                 />

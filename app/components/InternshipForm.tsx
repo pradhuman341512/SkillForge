@@ -143,8 +143,9 @@ export default function InternshipForm() {
           </div>
 
           <div>
-            <label className="block font-medium">Domain *</label>
+            <label htmlFor="domain" className="block font-medium">Domain *</label>
             <select
+              id="domain"
               name="domain"
               required
               value={formData.domain}

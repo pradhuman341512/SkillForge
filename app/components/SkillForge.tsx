@@ -119,7 +119,7 @@ const SkillForge = () => {
               <a href="#process" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Process</a>
               <a href="#testimonials" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors">Reviews</a>
               <button className='gbutton'>
-                Get Suport
+                Get Support
               </button>
             </div>
 
@@ -216,7 +216,7 @@ const SkillForge = () => {
       <section id="programs" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-4xl font-bold text-gray-900">Our Intership Programs</h2>
+            <h2 className="text-4xl font-bold text-gray-900">Our Internship Programs</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Choose from our comprehensive range of industry-focused Intership programs designed to fast-track your career growth
             </p>

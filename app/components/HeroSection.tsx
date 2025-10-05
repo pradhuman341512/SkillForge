@@ -66,7 +66,7 @@ const HeroSection: React.FC = () => {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="/HeroSection.jpeg"
+                src="/hero.jpg"
                 alt="Professional team collaboration"
                 className="rounded-2xl shadow-2xl"
               />

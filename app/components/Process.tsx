@@ -43,7 +43,7 @@ const Process: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl font-bold text-gray-900">Our Proven Process</h2>
+          <h2 className="text-4xl font-bold text-gray-900">Our Internship Process</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We follow a systematic approach to ensure every student achieves their career goals
           </p>
@@ -74,8 +74,8 @@ const Process: React.FC = () => {
 
           {/* Right Side - Image with floating cards */}
           <div className="relative">
-            <Image
-              src="/hero.jpeg" // ✅ Public folder
+            <img
+              src="/cf.png" // ✅ Public folder
               alt="Team working on project"
               width={500}
               height={350}
